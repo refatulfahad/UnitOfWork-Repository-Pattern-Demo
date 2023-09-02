@@ -1,0 +1,12 @@
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\bin\Debug\net6.0\UnitOfWork.Students.Domain.deps.json
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\bin\Debug\net6.0\UnitOfWork.Students.Domain.dll
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\bin\Debug\net6.0\UnitOfWork.Students.Domain.pdb
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.csproj.AssemblyReference.cache
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.AssemblyInfoInputs.cache
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.AssemblyInfo.cs
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.csproj.CoreCompileInputs.cache
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.dll
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\refint\UnitOfWork.Students.Domain.dll
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\UnitOfWork.Students.Domain.pdb
+C:\Users\BS1002\Documents\project-practice\Web-API\UnitOfWork.Students.Web\UnitOfWork.Students.Domain\obj\Debug\net6.0\ref\UnitOfWork.Students.Domain.dll
