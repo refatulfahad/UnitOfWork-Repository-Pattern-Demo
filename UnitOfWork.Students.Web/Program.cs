@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 using UnitOfWork.Students.Data.EFCore.Context;
 using UnitOfWork.Students.Data.EFCore.Repositories;
 using UnitOfWork.Students.Domain.Interfaces;
 using UnitOfWork.Students.Domain.Interfaces.Repository;
-using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,11 +12,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddSingleton(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
     ));
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork.Students.Data.EFCore.Implementation.UnitOfWork>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork.Students.Data.EFCore.Implementation.UnitOfWork>();
 
 builder.Services.AddMvc().AddJsonOptions(options =>
 {

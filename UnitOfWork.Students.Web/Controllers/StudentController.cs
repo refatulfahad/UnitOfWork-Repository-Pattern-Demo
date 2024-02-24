@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 using UnitOfWork.Students.Domain.Entities;
 using UnitOfWork.Students.Domain.Interfaces;
 
@@ -17,7 +18,6 @@ namespace UnitOfWork.Students.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> GetStudentList()
         {
-
             var data = _unitOfWork.StudentRepository.GetAll();
             return Ok(data);
         }

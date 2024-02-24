@@ -1,9 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnitOfWork.Students.Data.EFCore.Context;
 using UnitOfWork.Students.Domain.Interfaces.Repository;
 
@@ -13,7 +8,6 @@ namespace UnitOfWork.Students.Data.EFCore.Repositories
     {
         private ApplicationDbContext _context = null;
         private DbSet<T> table = null;
-
 
         public GenericRepository(ApplicationDbContext _context)
         {

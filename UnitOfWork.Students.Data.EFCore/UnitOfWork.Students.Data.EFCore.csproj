@@ -7,6 +7,42 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\UnitOfWork.Students.Data.EFCore.deps.json" />
+    <Content Include="bin\Debug\net6.0\UnitOfWork.Students.Data.EFCore.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+    <Content Include="obj\UnitOfWork.Students.Data.EFCore.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\UnitOfWork.Students.Data.EFCore.dll" />
+    <None Include="bin\Debug\net6.0\UnitOfWork.Students.Data.EFCore.pdb" />
+    <None Include="bin\Debug\net6.0\UnitOfWork.Students.Domain.dll" />
+    <None Include="bin\Debug\net6.0\UnitOfWork.Students.Domain.pdb" />
+    <None Include="obj\Debug\net6.0\refint\UnitOfWork.Students.Data.EFCore.dll" />
+    <None Include="obj\Debug\net6.0\ref\UnitOfWork.Students.Data.EFCore.dll" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.assets.cache" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.dll" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\UnitOfWork.Students.Data.EFCore.pdb" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="obj\UnitOfWork.Students.Data.EFCore.csproj.nuget.g.props" />
+    <None Include="obj\UnitOfWork.Students.Data.EFCore.csproj.nuget.g.targets" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">

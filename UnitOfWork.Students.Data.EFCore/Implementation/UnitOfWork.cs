@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnitOfWork.Students.Data.EFCore.Context;
+﻿using UnitOfWork.Students.Data.EFCore.Context;
 using UnitOfWork.Students.Data.EFCore.Repositories;
 using UnitOfWork.Students.Domain.Interfaces;
 using UnitOfWork.Students.Domain.Interfaces.Repository;
@@ -16,10 +11,21 @@ namespace UnitOfWork.Students.Data.EFCore.Implementation
         public UnitOfWork(ApplicationDbContext applicationDbContext)
         {
             _context = applicationDbContext;
-            StudentRepository = new StudentRepository(_context);
         }
 
-        public IStudentRepository StudentRepository { get; private set; }
+        private IStudentRepository _studentRepository;
+
+        public IStudentRepository StudentRepository
+        {
+            get
+            {
+                if (this._studentRepository == null)
+                {
+                    this._studentRepository = new StudentRepository(_context);
+                }
+                return _studentRepository;
+            }
+        }
 
         public int Save()
         {
