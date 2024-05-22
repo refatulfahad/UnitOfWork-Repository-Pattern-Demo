@@ -22,13 +22,20 @@ namespace UnitOfWork.Students.Web.Controllers
             return Ok(data);
         }
 
+        [HttpGet("{id}", Name = "GetStudentById")]
+        public async Task<IActionResult> GetStudentById(int id)
+        {
+            var data = _unitOfWork.StudentRepository.GetById(id);
+            return Ok(data);
+        }
+
         [HttpPost]
         public async Task<IActionResult> AddStudent([FromBody] Student doctor)
         {
 
             _unitOfWork.StudentRepository.Insert(doctor);
             _unitOfWork.Save();
-            return Ok();
+            return CreatedAtRoute(nameof(GetStudentById), new { id = doctor.StudentId }, doctor);
         }
 
         [HttpPut]
